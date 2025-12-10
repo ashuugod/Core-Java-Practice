@@ -4,13 +4,15 @@ import java.util.Scanner;
 
 public class interface_Methods {
     public static void main(String[] args) {
-        Vehical.Rules(); // static method calling 
-
+        // static method calling
+        Vehical.Rules(); 
+         
         Vehical v = null; 
 
         v = new Car();
         v.Start();
         v.Music();
+        // DownCasting 
         ((Car)v).SeatBelt();
         v = new Bike();
         v.Start();
@@ -39,6 +41,7 @@ class Car implements Vehical{
     public void Music(){
         System.out.println("Hale dil music is playying");
     }
+    //Specical Method and Concreate method Because Class contain abstarct method start
     public void SeatBelt(){
         System.out.println("Having Seatbelt");
     }
