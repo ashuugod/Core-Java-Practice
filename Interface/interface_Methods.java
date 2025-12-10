@@ -1,17 +1,18 @@
 package Interface;
 
-import java.util.Scanner;
 
 public class interface_Methods {
     public static void main(String[] args) {
-        Vehical.Rules(); // static method calling 
+         // static method calling 
+        Vehical.Rules();
 
         Vehical v = null; 
 
         v = new Car();
         v.Start();
         v.Music();
-        ((Car)v).SeatBelt();
+        // Down Casting  
+        ((Car)v).SeatBelt(); 
         v = new Bike();
         v.Start();
         v.Music();

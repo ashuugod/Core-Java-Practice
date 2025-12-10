@@ -26,6 +26,7 @@ public class Interface_Basics {
                 System.err.println("Invalid choice!!!");
                 break;
         }
+        sc.close();
     }
 }
 interface Animal{
