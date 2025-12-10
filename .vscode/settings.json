@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    // use to dont display .class file
+    "**/*.class": true
+  }
+}

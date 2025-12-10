@@ -3,27 +3,16 @@ package Interface;
 
 public class interface_Methods {
     public static void main(String[] args) {
-<<<<<<< HEAD
          // static method calling 
         Vehical.Rules();
 
-=======
-        // static method calling
-        Vehical.Rules(); 
-         
->>>>>>> fbdd8356f2ee7330187948d5215e6626f3a5960f
         Vehical v = null; 
 
         v = new Car();
         v.Start();
         v.Music();
-<<<<<<< HEAD
         // Down Casting  
         ((Car)v).SeatBelt(); 
-=======
-        // DownCasting 
-        ((Car)v).SeatBelt();
->>>>>>> fbdd8356f2ee7330187948d5215e6626f3a5960f
         v = new Bike();
         v.Start();
         v.Music();
@@ -51,7 +40,6 @@ class Car implements Vehical{
     public void Music(){
         System.out.println("Hale dil music is playying");
     }
-    //Specical Method and Concreate method Because Class contain abstarct method start
     public void SeatBelt(){
         System.out.println("Having Seatbelt");
     }
